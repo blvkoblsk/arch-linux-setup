@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # useful system stuff
-pacman -S sudo bash-completion git
+pacman -S sudo bash-completion git networkmanager
 EDITOR=nano visudo
 
 # yaourt
@@ -20,8 +20,8 @@ sudo -u nobody makepkg -si
 cd
 rm -rf /tmp/yaourtsetup
 
-# xorg
-pacman -S xorg-server xorg-server-utils xf86-video-intel xf86-input-synaptics
+# xorg and drivers
+pacman -S xorg-server xorg-server-utils xf86-video-intel xf86-input-synaptics bluez bluez-utils
 
 # desktop
-pacman -S openbox obconf lxappearance-obconf-gtk3 compton tint2
+pacman -S openbox obconf lxappearance-obconf-gtk3 compton tint2 slock
