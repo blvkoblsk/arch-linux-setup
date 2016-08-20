@@ -26,7 +26,7 @@ pacman -S xorg-server xorg-server-utils xf86-video-intel xf86-input-synaptics bl
 # desktop
 pacman -S openbox obconf lxappearance-obconf-gtk3 compton tint2 slock
 pacman -S deepin-icon-theme numix-themes
-pacman -S geany nodejs npm
+pacman -S geany nodejs npm blueberry
 
 # geany themes
 git clone https://github.com/codebrainz/geany-themes.git /tmp/geany-themes
