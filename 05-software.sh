@@ -29,6 +29,17 @@ pacman -S deepin-icon-theme deepin-gtk-theme
 pacman -S geany thunar file-roller nodejs npm blueberry guake lxterminal
 yaourt -S --noconfirm lxdm-themes
 
+# infinality
+sudo pacman-key -r 962DDE58
+sudo pacman-key -f 962DDE58
+sudo pacman-key --lsign-key 962DDE58
+echo "
+[infinality-bundle]
+Server = http://bohoomil.com/repo/\$arch
+[infinality-bundle-fonts]
+Server = http://bohoomil.com/repo/fonts" >> /etc/pacman.conf
+pacman -S infinality-bundle ibfonts-meta-base ibfonts-meta-extended
+
 # geany themes
 git clone https://github.com/codebrainz/geany-themes.git /tmp/geany-themes
 mkdir -p ~/.config/geany/colorschemes
