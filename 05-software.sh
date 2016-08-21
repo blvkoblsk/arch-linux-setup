@@ -28,6 +28,7 @@ pacman -S openbox obconf oblogout lxappearance-obconf-gtk3 lightdm light-locker 
 pacman -S deepin-icon-theme deepin-gtk-theme
 pacman -S geany thunar file-roller nodejs npm blueberry guake lxterminal
 yaourt -S --noconfirm lxdm-themes
+yaourt -S --noconfirm franz
 
 # infinality
 sudo pacman-key -r 962DDE58
