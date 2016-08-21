@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # useful system stuff
-pacman -S sudo bash-completion git networkmanager
+pacman -S sudo bash-completion git networkmanager xdotool
 EDITOR=nano visudo
 
 # yaourt
