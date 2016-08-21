@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # useful system stuff
-pacman -S sudo bash-completion git networkmanager wget xdotool
+pacman -S sudo bash-completion git networkmanager wget xdotool htop
 EDITOR=nano visudo
 
 # yaourt
