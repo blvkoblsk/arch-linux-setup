@@ -24,7 +24,7 @@ rm -rf /tmp/yaourtsetup
 pacman -S xorg-server xorg-server-utils xf86-video-intel xf86-input-synaptics bluez bluez-utils
 
 # desktop
-pacman -S openbox openbox-themes obconf oblogout lxappearance-obconf-gtk3 lightdm light-locker lightdm-gtk-greeter compton plank tint2 slock
+pacman -S openbox openbox-themes obconf oblogout lxappearance-obconf-gtk3 lightdm light-locker lightdm-gtk-greeter compton plank stalonetray slock
 pacman -S geany thunar ristretto evince file-roller nodejs npm blueberry guake lxterminal
 yaourt -S --noconfirm lxdm-themes franz brightside skippy-xd-git arc-icon-theme gtk-theme-arc-git
 
