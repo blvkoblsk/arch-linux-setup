@@ -25,9 +25,9 @@ pacman -S xorg-server xorg-server-utils xf86-video-intel xf86-input-synaptics bl
 
 # desktop
 pacman -S openbox obconf oblogout lxappearance-obconf-gtk3 lightdm light-locker lightdm-gtk-greeter compton plank tint2 slock
-pacman -S deepin-icon-theme deepin-gtk-theme
+pacman -S deepin-gtk-theme
 pacman -S geany thunar ristretto evince file-roller nodejs npm blueberry guake lxterminal
-yaourt -S --noconfirm lxdm-themes franz brightside skippy-xd-git
+yaourt -S --noconfirm lxdm-themes franz brightside skippy-xd-git arc-icon-theme
 
 # infinality
 sudo pacman-key -r 962DDE58
