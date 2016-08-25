@@ -11,9 +11,14 @@ locale-gen
 pacman -S iw wpa_supplicant dialog
 
 # install bootloader
-pacman -S grub efibootmgr os-prober
-grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=grub
-grub-mkconfig -o /boot/grub/grub.cfg
+# REFIND
+pacman -S refind-efi
+refind-install
+
+# or alternatively GRUB
+#pacman -S grub efibootmgr os-prober
+#grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=grub
+#grub-mkconfig -o /boot/grub/grub.cfg
 
 # exit the chroot
 echo going to exit the chroot now, after that, unmount /mnt and reboot
