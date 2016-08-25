@@ -4,7 +4,7 @@
 
 cd /tmp
 curl -O https://mirrors.kernel.org/archlinux/iso/2016.08.01/archlinux-bootstrap-2016.08.01-x86_64.tar.gz
-tar xzf <path-to-bootstrap-image>/archlinux-bootstrap-2016.08.01-x86_64.tar.gz
+tar xzf archlinux-bootstrap-2016.08.01-x86_64.tar.gz
 /tmp/root.x86_64/bin/arch-chroot /tmp/root.x86_64/
 
 pacman-key --init
